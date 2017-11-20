@@ -18,5 +18,10 @@ Route::get('/', 'HomeController@index');
 Route::get('/gioi-thieu', 'HomeController@about');
 Route::get('/lien-he', 'HomeController@contact');
 
+Route::get('/login', 'HomeController@login');
+Route::post('/loginAction', 'HomeController@loginAction');
+Route::get('/logout', 'HomeController@logout');
+Route::get('/dang-bai', 'PostController@insert');
+
 Route::get('/{slug}', 'CategoryController@index');
 Route::get('/bai-viet/{slug}', 'PostController@index');

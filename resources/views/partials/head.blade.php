@@ -278,7 +278,7 @@
     <link rel='stylesheet' id='contact-form-7-css'  href='/plugins/contact-form-7/includes/css/stylesef15.css' type='text/css' media='all' />
     <link rel='stylesheet' id='prefix-style-css'  href='/plugins/new-recent-posts-select-categories-by-thao-marky/css/pluginstyle66f2.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-plugin-settings-css'  href='/plugins/revslider/public/assets/css/settings4ee1.css' type='text/css' media='all' />
-
+    <link rel='stylesheet' id='contact-form-7-css'  href='/css/login.css' type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         .tp-caption a {
             color:#ff7302;

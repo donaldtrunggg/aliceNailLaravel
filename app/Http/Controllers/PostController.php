@@ -9,6 +9,7 @@ class PostController extends Controller
 {
     public function __construct()
     {
+        session_start();
     }
 
     public function index($slug)
@@ -23,5 +24,14 @@ class PostController extends Controller
             $locationTitle = $category->name . ' \\ ' . $post->title;
 
         return view('post-detail', ['post' => $post, 'locationTitle' => $locationTitle]);
+    }
+
+    public function insert()
+    {
+        if(!isset($_SESSION['isADMINACLICE']) || !$_SESSION['isADMINACLICE'])
+            return view('404');
+
+        return view('insert-post');
+
     }
 }

@@ -8,12 +8,16 @@ class HomeController extends Controller
 {
     public function __construct()
     {
-//        $this->middleware('guest')->except('logout');
+        session_start();
     }
 
     public function index()
     {
-        return view("index");
+        $isAdmin = false;
+        if(isset($_SESSION['isADMINACLICE']) && $_SESSION['isADMINACLICE'])
+            $isAdmin = true;
+
+        return view("index", ['isAdmin' => $isAdmin]);
     }
 
     public function contact()
@@ -24,5 +28,31 @@ class HomeController extends Controller
     public function about()
     {
         return view("about");
+    }
+
+    public function login()
+    {
+        return view("login");
+    }
+
+    public function logout()
+    {
+        if(isset($_SESSION['isADMINACLICE']) && $_SESSION['isADMINACLICE'])
+            $_SESSION['isADMINACLICE'] = false;
+
+        return redirect('/');
+    }
+
+    public function loginAction()
+    {
+
+        if ($_POST['username'] == "admin"
+            && $_POST['password'] == "123456789") {
+
+            $_SESSION['isADMINACLICE'] = true;
+            return redirect('/');
+        }
+        else
+            return redirect('/login');
     }
 }
