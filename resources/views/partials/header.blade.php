@@ -3,7 +3,7 @@
 <div class="container" style="margin-bottom: 5px;">
 	<div class="row">
 		<div id="logo" class="col-md-2 col-sm-2 col-xs-12 logo text-center">
-			<a href="index">
+			<a href="/">
 				<img src="/images/header/new1.png" alt="logo" class="logo-1">
 			</a>
 		</div>
@@ -24,6 +24,9 @@
 							</li>
 							<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
 								<a href="/lien-he">Liên hệ</a>
+							</li>
+							<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
+								<a href="/">Đăng nhập</a>
 							</li>
 						</ul>
 					</div>

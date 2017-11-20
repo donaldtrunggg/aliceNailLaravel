@@ -651,7 +651,6 @@ header .menu-cont .header-menu>ul li a {
 header .menu-cont .header-menu>ul li ul {
     display: none;
     position: absolute;
-    top: 40;
     left: 0;
     z-index: 999;
     padding: 0
