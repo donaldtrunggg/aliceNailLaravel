@@ -141,10 +141,11 @@
                 <div class="col-md-6 images">
                     <div class="title">
                         <h3><i class="fa fa-picture-o" aria-hidden="true"></i> <a href="hinh-anh/index.html">Hình ảnh</a></h3>
-                        <div class="icontrol"><span class="inext"></span><span class="iprev"></span></div>
                     </div>
 
-                    <div id="image-slide">
+                    @include('partials.images')
+
+                    <!-- <div id="image-slide">
                         <div class="item">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12 pr0"><img class="m-slider" src="/images/islider/3.jpg" alt=""></div>
@@ -254,7 +255,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> -->
                     <!-- <div style="font-size: 12px; font-style: italic;"> * Hiệu quả có thể thay đổi tuỳ theo từng người.</div> -->
                 </div>
             </div>

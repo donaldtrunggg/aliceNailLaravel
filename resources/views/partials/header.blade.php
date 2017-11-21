@@ -27,12 +27,12 @@
 							</li>
 
 							<?php if(isset($isAdmin) && $isAdmin) : ?>
-							<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
-								<a href="/dang-bai">Đăng bài</a>
-							</li>
-							<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
-								<a href="/logout">Đăng xuất</a>
-							</li>
+								<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
+									<a href="/dang-bai">Đăng bài</a>
+								</li>
+								<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
+									<a href="/logout">Đăng xuất</a>
+								</li>
 							<?php endif; ?>
 						</ul>
 					</div>
