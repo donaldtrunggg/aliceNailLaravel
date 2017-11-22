@@ -11,6 +11,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+    <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+    <script>
+        CKEDITOR.replace( 'summary-ckeditor', {
+            height: 500
+        } );
+    </script>
+
     <!-- font load -->
     <style type="text/css">
         @font-face {

@@ -6,18 +6,18 @@ use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
+    private $isAdmin = false;
     public function __construct()
     {
         session_start();
+
+        if(isset($_SESSION['isADMINACLICE']) && $_SESSION['isADMINACLICE'])
+            $this->isAdmin = true;
     }
 
     public function index()
     {
-        $isAdmin = false;
-        if(isset($_SESSION['isADMINACLICE']) && $_SESSION['isADMINACLICE'])
-            $isAdmin = true;
-
-        return view("index", ['isAdmin' => $isAdmin]);
+        return view("index", ['isAdmin' => $this->isAdmin]);
     }
 
     public function contact()
@@ -50,7 +50,7 @@ class HomeController extends Controller
             && $_POST['password'] == "123456789") {
 
             $_SESSION['isADMINACLICE'] = true;
-            return redirect('/');
+            return redirect('/dashboard');
         }
         else
             return redirect('/login');

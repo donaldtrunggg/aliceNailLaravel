@@ -18,7 +18,3 @@
         </form><!-- /form -->
     </div><!-- /card-container -->
 </div><!-- /container -->
-
-
-<script type="text/javascript">
-</script>

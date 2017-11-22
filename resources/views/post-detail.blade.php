@@ -36,7 +36,7 @@
                             </h1>
                         </div>
 
-                        {!! $post->content !!}
+                        <?php echo html_entity_decode($post->content) ?>
                     </div>
                 </div>
                 @include('partials.sidebar')

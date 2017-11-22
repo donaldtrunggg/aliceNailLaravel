@@ -37,7 +37,7 @@
 
                                 <div class="detail col-md-12 col-sm-12 col-xs-12">
                                     <?php $post->des = substr($post->content,0,500) . "..."; ?>
-                                    <p>{!! $post->des !!}</p> <a class="readmore" href={{ $post->url }}><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Xem thêm</a></div>
+                                    <p><?php echo html_entity_decode($post->des) ?></p> <a class="readmore" href={{ $post->url }}><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Xem thêm</a></div>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
