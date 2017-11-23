@@ -17,7 +17,7 @@
 					</ul>
 				</li>
 				<li id="menu-item-18847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18847">
-					<a href="/triet-long-nano-light"><img style="opacity: 0" src="/images/wtf.png"/>Triệt lông</a></li>
+					<a href="/triet-long"><img style="opacity: 0" src="/images/wtf.png"/>Triệt lông</a></li>
 				<li id="menu-item-842" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-842">
 					<a href="/thay-da-vat-ly"><img style="opacity: 0" src="/images/wtf.png"/>Thay da vật lý</a>
 				</li>
@@ -27,8 +27,8 @@
 						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/phi-kim-dieu-tri-mun">Phi kim điều trị mụn</a></li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/phi-kim-tai-tao-cang-bong-trang-sang-da">Phi kim tái tạo căng bóng trắng sáng da</a></li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/phi-kim-dieu-tri-tan-nhang-nam">Phi kim điều trị tàn nhang, nám</a></li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="/phi-kim-dieu-tri-seo-ro">Phi kim điều trị sẹo rỗ</a></li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/prp-mau-tu-than-dac-tri-seo-ro">PRP máu tự thân đặc trị sẹo rỗ, tái tạo da</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/phi-kim-dieu-tri-seo-ro">Phi kim điều trị sẹo rỗ</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/PRP-mau-tu-than-dac-tri-seo-ro-tai-tao-da">PRP máu tự thân đặc trị sẹo rỗ, tái tạo da</a></li>
 					</ul>
 				</li>
 				<li id="menu-item-17703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17703"><a href="/vi-kim-tao-song-nhat-ban"><img style="opacity: 0" src="/images/wtf.png"/>VI KIM TẢO SỐNG NHẬT BẢN</a></li>
@@ -39,7 +39,7 @@
 					<a href="#"><img style="opacity: 0" src="/images/wtf.png"/>TRUYỀN TRẮNG</a>
 					<ul class="sub-menu">
 						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/truyen-trang-lutathion">Truyền trắng Lutathion</a></li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/truyen-noan-thuy-si">Truyền noãn cao cấp Thuỵ Sĩ</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/truyen-noan-cao-cap-thuy-si">Truyền noãn cao cấp Thuỵ Sĩ</a></li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="" href="/tiem-nhau-thai-nhat">Tiêm nhau thai Nhật</a></li>
 					</ul>
 				</li>

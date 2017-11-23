@@ -91,13 +91,13 @@
                     <ul class="newinfo-title-list ContentHotNews" style="margin-bottom: 0;background-color: white;">
                         <li>
                             <span>21/09/2017 </span>
-                            <a class="vna-ajax-modal" href="/vi-sao-ban-hit-khong-khi-cung-beo">Vì sao bạn 'hít không khí' cũng béo?</a>
+                            <a class="vna-ajax-modal" href="/bai-viet/vi-sao-ban-hit-khong-khi-cung-beo">Vì sao bạn 'hít không khí' cũng béo?</a>
                         </li>
                     </ul>
                     <ul class="newinfo-title-list ContentHotNews" style="margin-bottom: 0;background-color: white;">
                         <li>
                             <span>21/09/2017 </span>
-                            <a class="vna-ajax-modal" href="/10-cach-tri-quang-tham-mat-bang-nguyen-lieu-tu-nhien">10 cách trị quầng thâm mắt bằng nguyên liệu tự nhiên</a>
+                            <a class="vna-ajax-modal" href="/bai-viet/10-cach-tri-quang-tham">10 cách trị quầng thâm mắt bằng nguyên liệu tự nhiên</a>
                         </li>
                     </ul>
                     <!-- <ul class="newinfo-title-list ContentHotNews" style="margin-bottom: 0;background-color: white;">
@@ -140,7 +140,7 @@
                 </div>
                 <div class="col-md-6 images">
                     <div class="title">
-                        <h3><i class="fa fa-picture-o" aria-hidden="true"></i> <a href="hinh-anh/index.html">Hình ảnh</a></h3>
+                        <h3><i class="fa fa-picture-o" aria-hidden="true"></i> Hình ảnh</h3>
                     </div>
 
                     @include('partials.images')

@@ -14,7 +14,7 @@
                     <div class="bg">
                         <div class="row">
                             <div class="col-md-9 col-sm-8 col-xs-12">
-                                <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title">Trang Chủ</a> \ <span rel="v:child" typeof="v:Breadcrumb"><span rel="v:child" typeof="v:Breadcrumb"><a href="" rel="v:url" property="v:title">{{ $locationTitle }}t</a></span></span>
+                                <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title">Trang Chủ</a> \ <span rel="v:child" typeof="v:Breadcrumb"><span rel="v:child" typeof="v:Breadcrumb"><a href="" rel="v:url" property="v:title">{{ $locationTitle }}</a></span></span>
                                     </span>
                                     </span>
                                 </p>
