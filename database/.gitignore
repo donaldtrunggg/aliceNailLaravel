@@ -1,3 +1,4 @@
 *.sqlite
 application/config/database.php
 .env
+config/database.php
