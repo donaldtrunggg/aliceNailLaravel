@@ -1,5 +1,8 @@
 <!-- views/partials/navigation.ejs -->
 <!-- Navigation -->
+<?php if(isset($_SESSION['isADMINACLICE']) && $_SESSION['isADMINACLICE']) : ?>
+@include('partials.admin-navigation')
+<?php endif; ?>
 <div class="menu-cont hidden-xs" id="mainmenu">
 	<div class="container">
 		<div class="header-menu">

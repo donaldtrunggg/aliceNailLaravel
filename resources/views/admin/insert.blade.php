@@ -2,7 +2,7 @@
 
 <header>
     @include('partials.header')
-    @include('partials.admin-navigation')
+    @include('partials.navigation')
 </header>
 
 <div class="container" style="padding: 20px 0px">
@@ -36,8 +36,12 @@
             <option value="19" <?php if(!empty($post->category->id) && $post->category->id == 19) echo "selected" ?>>Botox</option>
             <option value="20" <?php if(!empty($post->category->id) && $post->category->id == 20) echo "selected" ?>>Tin tức</option>
         </select>
+        <br>
+        Link lấy URL ảnh <a href="https://screenshot.net/free-image-uploader.html" target="_blank">https://screenshot.net/free-image-uploader.html</a>
+        <br>
+        Phải chuột vào hình đã upload, chọn "Get Image Address" xong dán vào mục thêm hình ảnh của bài đăng
 
-        <textarea class="form-control" id="summary-ckeditor" name="ckeditor"><?php if(!empty($post->content)) echo $post->content ?></textarea>
+    <textarea class="form-control" id="summary-ckeditor" name="ckeditor"><?php if(!empty($post->content)) echo $post->content ?></textarea>
         <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"><?php !empty($post) ? print "Lưu thay đổi" : print "Đăng bài" ?></button>
     </form><!-- /form -->
 </div><!-- /container -->

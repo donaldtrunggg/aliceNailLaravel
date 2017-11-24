@@ -2,5 +2,5 @@
 
 <header>
     @include('partials.header')
-    @include('partials.admin-navigation')
+    @include('partials.navigation')
 </header>

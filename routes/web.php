@@ -3,10 +3,12 @@
 //ADMIN
 Route::get('/dashboard', 'AdminController@index');
 Route::get('/them-bai-viet', 'AdminController@insert');
-Route::get('/chinh-sua-bai-viet', 'AdminController@updateList');
-Route::get('/chinh-sua-bai-viet/{slug}', 'AdminController@update');
+Route::get('/chinh-sua-bai-viet/{slug}', 'AdminController@updateList');
+Route::get('/chinh-sua-bai-viet/bai-viet/{slug}', 'AdminController@update');
 Route::post('/insertPostAction', 'AdminController@insertAction');
 Route::post('/updatePostAction/{id}', 'AdminController@updateAction');
+Route::get('/deletePost/{id}', 'AdminController@delete');
+Route::get('/deletePostAction/{id}', 'AdminController@deleteAction');
 
 Route::get('/', 'HomeController@index');
 Route::get('/gioi-thieu', 'HomeController@about');

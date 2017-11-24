@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Post;
+use App\Category;
 
 class AdminController extends Controller
 {
@@ -41,12 +42,20 @@ class AdminController extends Controller
         $newPost->status = 0;
 
         $newPost->save();
+        return view('admin.dashboard');
     }
 
-    public function updateList()
+    public function updateList($slug)
     {
-        $posts = Post::all();
-        return view("admin.update-list", ['posts' => $posts]);
+        $posts = null;
+        if($slug == 'all')
+            $posts = Post::all();
+        else {
+            $category = Category::where('slug', '=', $slug)->first();
+            if(isset($category))
+                $posts = $category->posts;
+        }
+        return view('admin.update-list', ['posts' => $posts, 'slug' => $slug]);
     }
 
     public function update($slug)
@@ -72,5 +81,19 @@ class AdminController extends Controller
 
         $posts = Post::all();
         return view("admin.update-list", ['posts' => $posts]);
+    }
+
+    public function delete($id)
+    {
+        $post = Post::find($id);
+
+        return view("admin.delete", ['post' => $post]);
+    }
+
+    public function deleteAction($id)
+    {
+        Post::destroy($id);
+
+        return redirect('/chinh-sua-bai-viet/all');
     }
 }

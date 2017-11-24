@@ -8,7 +8,7 @@
                     <a href="/them-bai-viet"><img style="opacity: 0" src="/images/wtf.png"/>ĐĂNG BÀI</a>
                 </li>
                 <li id="menu-item-40165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-40165">
-                    <a href="/chinh-sua-bai-viet"><img style="opacity: 0" src="/images/wtf.png"/>CHỈNH SỬA BÀI ĐĂNG</a>
+                    <a href="/chinh-sua-bai-viet/all"><img style="opacity: 0" src="/images/wtf.png"/>CHỈNH SỬA BÀI ĐĂNG</a>
                 </li>
             </ul>
         </div>

@@ -26,7 +26,7 @@
 								<a href="/lien-he">Liên hệ</a>
 							</li>
 
-							<?php if($_SESSION['isADMINACLICE']) : ?>
+							<?php if(isset($_SESSION['isADMINACLICE']) && $_SESSION['isADMINACLICE']) : ?>
 								<li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
 									<a href="/dashboard">Quản lí trang</a>
 								</li>
